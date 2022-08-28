@@ -1,0 +1,37 @@
+:root {
+    --bo: 2px solid red;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cms {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    border: var(--bo);
+}
+
+.menu__cms {
+    border: var(--bo);
+    width: 25%;
+}
+
+.view__cms {
+    border: var(--bo);
+    width: 75%;
+}
+
+button {
+    padding: 9px 20px;
+    margin: 10px;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 5px;
+    background: rgb(194, 165, 165);
+    outline: 0;
+    cursor: pointer;
+}

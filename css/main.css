@@ -1,0 +1,1185 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+:root {
+    --bo: 1px solid black;
+    --first-color: black;
+    --mine-width: calc (100% - 230px);
+    --header-height: 150px;
+}
+
+body {
+    min-height: 100%;
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #333;
+}
+
+.menuu {
+    position: absolute;
+    width: 100%;
+    height: var(--header-height);
+    background-image: url('../media/default-header.jpg');
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+a:hover {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+ol {
+    float: left;
+}
+
+.header__logo {
+    margin: 30px 0 0 115px;
+    float: left;
+}
+
+.company__name {
+    float: left;
+    margin: 40px 10px 0 20px;
+    font-size: 2rem;
+    color: rgb(170, 160, 135);
+    text-transform: capitalize;
+}
+.header__phone {
+    float: right;
+    margin: 47px 10px 0 0;
+    font-size: 1.5rem;
+    color: white
+}
+
+.header__social {
+    float: right;
+    padding-right: 115px;
+    margin: 43px 0 0 0;
+    color: white;
+}
+
+.social__item {
+    width: 30px;
+    height: 30px;
+    border-radius: 40%;
+    margin: 5px;
+}
+
+nav {
+    width: var(--mine-width);
+    background-color: white;
+    background-image: url('../media/body_dots.png');
+    height: 50px;
+    margin: 115px 115px 0 115px;
+    border: 1px solid black;
+    list-style-type: none;
+}
+.nav__item {
+    width: 14.2%;
+    height: 30px;
+    text-align: center;
+    line-height: 45px;
+}
+
+button {
+    outline: 0;
+}
+
+.menuu {
+    height: 165px;
+}
+
+.sho {
+    display: block;
+    width: 100%;
+    border-top: 2px solid black;
+    z-index: -1;
+}
+
+.sho__pic {
+    height: 500px;
+    text-align: center;
+}
+
+.menu__tr {
+    margin-top: -9px;
+    padding: 15px 15px 15px 115px;
+    background: #eee;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.menu__tr__red {
+    text-transform: capitalize;
+    color: red;
+    font-weight: bold;
+}
+
+.menu__tr__here {
+    text-transform: capitalize;
+    color: #676767;
+    font-weight: bold;
+}
+
+.a__menu__tr {
+    text-transform: capitalize;
+    color: red;
+    font-weight: bold;
+}
+
+.a__menu__tr:hover {
+    text-transform: capitalize;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.abo {
+    width: 100%;
+    color: black;
+    padding-bottom: 550px ;
+}
+
+.hom__tit {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    padding: 35px 0 15px 0;
+    margin: 30px;
+}
+
+.hr__tit {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+.hr__tit__l,
+.hr__tit__r {
+    border-top: 6px solid red;
+    margin: 5px;
+}
+
+.hr__tit__l,
+.hr__tit__r {
+    width: 100px;
+}
+
+.hr__tit__c {
+    border: 6px solid black;
+    width: 15px;
+    height: 15px;
+}
+
+.abo__div__pic {
+    width: 365px;
+    height: 530px;
+    float: right;
+    margin: 15px;
+}
+
+.abo__tex {
+    width: 25%;
+    padding-top: 20px;
+    float: left;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 15px 0 15px 115px;
+}
+
+.emp {
+    float: right;
+    width: 115px;
+    height: 50px;
+}
+.com__nam {
+    text-transform: uppercase;
+    color: red;
+    font-size: 18px;
+}
+
+.read__more {
+    margin: 25px 0;
+    background-color: red;
+    cursor: pointer;
+    border: none;
+    padding: 9px 15px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition-duration: 2s;
+}
+
+.read__more:hover {
+    background-color: rgb(128, 20, 20);
+    color: rgb(201, 201, 201);
+}
+
+.abo__pic__tit {
+    position: relative;
+    background-color: transparent;
+    color: white;
+    top: -150px; 
+    padding: 25px;
+    z-index: 50;
+    text-transform: capitalize;
+    font-size: 24px;
+    line-height: 24px;
+    font-family: roboto;
+    font-weight: 600;
+    width: 100px;
+}
+
+.view__more {
+    position: relative;
+    color: white;
+    border: 1px solid white;
+    background-color: transparent;
+    top: -180px;
+    margin: 25px;
+    padding: 9px 15px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition-duration: 2s;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.view__more:hover {
+    border: 1px solid red;
+    background-color: red;
+}
+
+.pro {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.pro__box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.box {
+    float: left;
+    width: 360px;
+}
+
+.b__b {
+    position: relative;
+    top: -1px;
+    border-bottom: 5px solid red;
+}
+
+.box__tex {
+    position: relative;
+    width: 360px;
+    top: -10px;
+    padding: 20px;
+    background: royalblue;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.view__more__project {
+    position: relative;
+    margin: 35px 0;
+    left: 43%;
+    background-color: red;
+    border: none;
+    padding: 9px 15px;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition-duration: 2s;
+}
+
+.view__more__project:hover {
+    background-color: rgb(128, 20, 20);
+    color: rgb(201, 201, 201);
+}
+
+.clients {
+    display: none;
+}
+
+/* About */
+
+.tit__bg {
+    width: 100%;
+}
+
+.abo__tit {
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+}
+.mis__vis {
+    background: url(../media/bg/about-us.png) no-repeat fixed;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+.mis__vis__box {
+    margin: 0 10px;
+    width: 360px;
+    height: 400px;
+    background: white;
+    border: 1px solid black;
+    text-align: center;
+    padding: 80px 50px;
+    line-height: 1.5rem;
+}
+
+.mis__vis__box__a {
+    margin: 0 10px;
+    width: 360px;
+    height: 400px;
+    border: 1px solid black;
+}
+
+.mis__vis__box__ate {
+    color: red;
+    font-weight: bold;
+}
+
+/* SERVICE */
+section {
+    width: 100%;
+    padding: 60px 115px;
+    background-color: #d6d4d4;
+}
+
+.sec__con {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.con__box__t,
+.con__box {
+    width: 380px;
+    height: 314px;
+    background-color: white;
+    text-align: center;
+}
+
+.con__box__t {
+    padding: 50px 15px;
+}
+
+.cap {
+    text-transform: capitalize;
+}
+
+.com {
+    color: red;
+    font-size: 18px;
+}
+
+.bol{
+    font-weight: bold;
+}
+
+.a__clean {
+    color: white;
+}
+
+/* Industrial */
+
+.ind__con {
+    width: 100%;
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+}
+
+.ind__box {
+    width: 100%;
+    margin-bottom: 50px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid red;
+}
+
+.ind__tit {
+    font-family: "Titillium Web",Arial,Helvetica,sans-serif;
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #101010;
+    font-size: 28px;
+    line-height: 35px;
+}
+
+.ind__tex {
+    width: 60%;
+    float: left;
+}
+
+.ind__pic {
+    direction: rtl;
+}
+
+/* Projects */
+
+.pro__con {
+    background: white;
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #333;
+}
+
+.pro__pro {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.adc {
+    filter: brightness(0.3);
+}
+
+.pro__lin__tex {
+    position: relative;
+    top: -259px;
+    height: 220px;
+    font-size: 36px;
+    line-height: 100px;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 15px;
+    color: rgb(255, 255, 255);
+    border: 5px solid rgb(255, 255, 255);
+}
+
+/* Kontact */
+
+.kon {
+    float: left;
+    width: 400px;
+    padding: 30px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    background-color: #f1f1f1;
+}
+
+.adr__tit,
+.mes__tit {
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+}
+
+.h {
+    width: 30%;
+    border-top: 4px solid red; 
+    margin: 5px 0;
+}
+
+.mes {
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.mes__tit {
+    font-size: 20px;
+}
+
+.h__a {
+    position: relative;
+    left: 400px;
+    width: 11%;
+    border-top: 4px solid red; 
+    margin: 5px 0;
+}
+
+.ad {
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+    padding-left: 25px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+ 
+.a__none:hover {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.bx-mail-send {
+    float: left;
+}
+
+.ada {
+    padding-top: 28px;
+}
+
+/* Form */
+
+input {
+    border: none;
+    margin-left: 10px;
+    outline: 0;
+}
+
+.h7 {
+    margin-top: 15px;
+    line-height: 28px;
+    margin-bottom: 24px;
+    font-weight: 400;
+}
+
+.kon__form {
+    float: left;
+    width: 790px;
+    height: 45px;
+    border: var(--bo);
+    margin-bottom: 25px;
+}
+
+.form__ico{
+    height: 45px;
+    margin: -1px 0 0 -1px;
+    border: var(--bo);
+    background: rgb(218, 215, 215);
+    vertical-align: middle;
+}
+
+.form__tex {
+    color: #858080;
+    vertical-align: middle;
+}
+
+.kon__form__are {
+    border: var(--bo);
+    height: 140px;
+    float: left;
+    width: 790px;
+    margin-bottom: 30px;
+    background: rgb(218, 215, 215);
+}
+
+.form__ico__are {
+    background: rgb(218, 215, 215);
+    height: 45px;
+    margin-top: -140px;
+    vertical-align: middle;
+}
+
+.form__tex__are {
+    margin-top: -1px;
+    margin-left: -6px;
+    height: inherit;
+    width: 744px;
+    font-family: "Poppins",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #333;
+    outline: 0;
+}
+
+/* Projects Table */
+
+table {
+    width: 100%;
+    padding: 30px 115px 5px 115px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.t_head {
+    color: white;
+    width: auto;
+    background: rgb(37, 14, 68);
+    padding: 10px;
+}
+
+.t_project{
+    border: var(--bo);
+    padding: 3px;
+}
+
+/* Materials */
+
+.mat__con {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.mat__box {
+    display: block;
+    background: white;
+    border: var(--bo);
+    width: 22%;
+    margin: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.show__mat__box {
+    visibility: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+
+.cl {
+    border: 1px solid white;
+    margin-left: 95%;
+    width: 5%;
+    padding: 9px 20px;
+}
+
+.show__box__title {
+    width: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2rem;
+    padding: 19px;
+    border: 1px solid white;
+}
+
+.pic {
+    border: 1px solid white;
+    width: 20%;
+    height: 80%;
+    padding: 20px;
+}
+
+.opi {
+    border: 1px solid white;
+    width: 80%;
+    height: 80%;
+    padding: 30px 50px;
+}
+
+.mat__box__img {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+.mat__box__tex {
+    text-transform: capitalize;
+    padding: 9px 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/*Carrer*/
+
+.car__sec {
+    width: 100%;
+    padding: 30px 115px;
+}
+
+.ofe {
+    background: #f2f2f2;
+    margin-bottom: 20px;
+}
+
+.ofe__inf {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.inf__cit,
+.inf__typ,
+.inf__qua {
+    display: flex;
+    flex-direction: row;
+}
+
+.ofe__tit {
+    width: 75%;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+    height: inherit;
+    padding: 15px;
+}
+.ofe__ico {
+    width: 16px;
+    margin: 7px 5px 5px 30px;
+}
+
+.nam {
+    font-size: 14px;
+    text-transform: capitalize;
+    line-height: 30px;
+}
+
+.ofe__tex {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+    font-size: 14px;
+}
+.foote {
+    position: absolute;
+    width: 100%;
+}
+
+.h2__foot,
+.h3__foot {
+    text-transform: capitalize;
+    font-style: normal;
+    margin:0 0 0 40px;
+}
+
+.h3__foot {
+    margin-bottom: 2rem;
+}
+.contact {
+    display: flex;
+    padding: 0 115px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    background-color: rgb(42, 42, 42);
+}
+
+.contact__info,
+.shortcut {
+    margin-top: 30px;
+    color: white;
+    width: 30%;
+}
+
+.contact__info {
+    color: red;
+}
+
+.bx {
+    float: left;
+    color: red;
+    font-size: 30px;
+}
+
+.foot {
+    background-color: black;
+    color: blanchedalmond;
+    padding: 20px 0;
+}
+
+.mail {
+    color: red;
+    text-decoration: none;
+}
+
+.shortcut {
+    padding-left: 40px;
+}
+.shortcut__title {
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    font-size: 24px;
+    color: white;
+}
+
+.a__shortcut__title {
+    color: white;
+    text-decoration: none;
+}
+
+.hr__shortcut__title {
+    margin-bottom: 15px;
+    width: 20%;
+}
+
+.shortcut__text {
+    margin-bottom: 20px;
+    color: #808182;
+    font-size: 18px;
+}
+
+.read__more {
+    margin: 25px 0;
+    background-color: red;
+    border: none;
+    padding: 15px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.read__more:hover {
+    background-color: rgb(128, 20, 20);
+    color: rgb(201, 201, 201);
+}
+
+.shortcut__link {
+    color: #808182;
+    text-decoration: none;
+}
+
+.shortcut__link:hover {
+    color: red;
+}
+
+.h4__foot,
+.h5__foot,
+.lumonor {
+    display: inline;
+}
+
+.h4__foot,
+.h5__foot {
+    color: white;
+}
+
+.h4__foot {
+    margin-left: 115px;
+}
+
+.h5__foot {
+    margin: 0 10px 0 670px;
+}
+.lumonor {
+    float: right;
+    margin-right: 115px;
+    text-transform: capitalize;
+}
+
+.a__lumonor {
+    color: rgba(199, 137, 137, 0.397);
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.a__lumonor:hover {
+    color: rgb(150, 100, 100);
+}
+
+@media only screen and (max-width: 1024px) {
+    body {
+        font-family: "Poppins",sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        color: #333;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    button {
+        outline: 0;
+    }
+    
+    /* About */
+    .abo__tex {
+        width: 250px;
+        float: left;
+    }
+    .abo__div__pic {
+        width: 200px;
+        margin: 50px 15px;
+        padding: 60px 0;
+    }
+
+    .abo__pic {
+        width: 200px;
+    }
+
+    .pro__box {
+        margin: 0 115px;
+        justify-content: space-between;
+    }
+    .hidden {
+        display: none;
+    }
+
+    .sho__pic__img {
+        width: 100%;
+    }
+
+    .mis__vis__box {
+        width: 250px;
+        padding: 18px;
+    }
+
+    .foot {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+    .h4__foot {
+        margin-left: 0 50px;
+        font-size: 12px;
+    }
+
+    .h5__foot {
+        margin: 0 50px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .company__name {
+        font-size: 1.5rem;
+    }
+
+    .header__phone {
+        font-size: 0.8rem;
+    }
+
+    .bx {
+        font-size: 20px;
+    }
+
+    .nav__item {
+        font-size: 10px;
+    }
+
+    .abo {
+        padding-bottom: 600px;
+    }
+
+    .abo__div__pic {
+        width: 10%;
+    }
+
+    .ab1 {
+        position: absolute;
+        top: 470px;
+        left: 470px;
+    }
+
+    .ab2 {
+        position: absolute;
+        top: 770px;
+        left: 470px;
+    }
+
+    .pro__section {
+        display: none;
+    }
+
+    .no {
+        display: none;
+    }
+
+    .mis__vis__box__a {
+        display: none;
+    }
+
+    .pro__pro {
+        flex-direction: column;
+        justify-content: end;
+        width: 500px;
+    }
+
+    .pro__lin {
+        height: 270px;
+    }
+
+    .pro__con {
+        height: 1150px;
+    }
+
+    .k {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mes {
+        padding-left: 0;
+    }
+
+    .h__a {
+        left: 0;
+    }
+
+    .kon__form{
+        width: 100%;
+    }
+
+    .form__ico__are {
+        display: none;
+    }
+
+    .kon__form__are {
+        width: auto;
+    }
+
+    .form__tex__are {
+        width: 510px;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    /*menu*/
+    
+    .menu__small {
+        display: block;
+        width: 100%;
+        height: 70px;
+        background: rgb(0, 0, 0);
+    }
+
+    .logo__small {
+        position: relative;
+        padding: 10px;
+        float: left;
+        width: 50%;
+        z-index: 1;
+    }
+
+    .op {
+        float: left;
+        width: 50%;
+        padding: 10px;
+        display: block;
+    }
+
+    .clo {
+        display: none;
+        float: left;
+        width: 50%;
+        padding: 10px;
+    }
+
+    .nav__small__bg {
+        width: 100%;
+        display: none;
+        background: rgb(0, 0, 0);
+    }
+
+    .nav__small {
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+
+    .nav__small__item {
+        margin: 5px auto;
+    }
+
+    .small__a {
+        color: white;
+    }
+
+    /*about*/
+    .ab1,
+    .ab2 {
+        position: absolute;
+        left: 100px;
+        width: auto;
+    }
+
+    .ab1 {
+        top: 780px;
+    }
+
+    .ab2 {
+        top: 1100px;
+    }
+
+    .mis__vis__box {
+        margin-bottom: 20px;
+    }
+
+    .menuu,
+    .sho {
+        display: none;
+    }
+
+    .foote {
+        top: 1700px;
+    }
+    .contact,
+    .foot {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact__info,
+    .shortcut {
+        margin-left: -100px;
+        width: auto;
+    }
+
+    .h4__foot,
+    .h5__foot {
+        margin-left: auto;
+        margin-right: auto;
+        justify-self: start;
+    }
+
+    section {
+        width: 100%;
+        padding: 30px 0;
+    }
+    .con__box__t {
+        padding: 0 5px;
+        height: auto;
+    }
+
+    .non425 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .abo__tex {
+        width: auto;
+        margin: 0 20px;
+    }
+
+    .h4__foot {
+        text-align: center;
+    }
+}
