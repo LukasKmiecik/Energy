@@ -1,12 +1,8 @@
 # Energy
 Webside created for company Enery Industrie from Sandnes in Norway
-https://lukaskmiecik.github.io/Energy/
-# Mobile-menu-icom-animation
-Mobile-menu-icom-animation
-The game was created on the base of the original game of the same title.
 
 ## Setup
-Clone repo or click to [link](https://lukaskmiecik.github.io/Mobile-menu-icom-animation/) to open webside
+Clone repo or click to [link](https://lukaskmiecik.github.io/Energy/) to open webside
 
 ## Languages:
 + HTML
@@ -20,7 +16,7 @@ This files open yours web browser.<br>
 Or:
 
 ## Demo
-Click to [link](https://lukaskmiecik.github.io/Mobile-menu-icom-animation/) to open demo in webside
+Click to [link](https://lukaskmiecik.github.io/Energy/) to open demo in webside
 
 ## Autor
 [@LukasKmiecik](https://github.com/LukasKmiecik)
